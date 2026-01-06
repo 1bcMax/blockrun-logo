@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockRun.ai Logo V3 - Timeless Geometric</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: #09090b;
+            color: #fafafa;
+            padding: 80px 60px;
+            min-height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #71717a;
+            margin-bottom: 100px;
+            font-size: 1rem;
+        }
+        .concept {
+            background: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 32px;
+            padding: 60px;
+            margin-bottom: 80px;
+        }
+        .concept-label {
+            font-size: 0.7rem;
+            color: #3b82f6;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .concept-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        .concept-desc {
+            color: #a1a1aa;
+            line-height: 1.8;
+            max-width: 700px;
+            margin-bottom: 60px;
+        }
+        .logo-grid {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+        .logo-main {
+            width: 220px;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 70%);
+            border-radius: 40px;
+        }
+        .logo-sizes {
+            display: flex;
+            align-items: flex-end;
+            gap: 32px;
+        }
+        .logo-size {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .size-label {
+            font-size: 0.65rem;
+            color: #52525b;
+            letter-spacing: 1px;
+        }
+        .variants {
+            display: flex;
+            gap: 40px;
+            margin-top: 60px;
+            padding-top: 50px;
+            border-top: 1px solid #27272a;
+        }
+        .variant {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .variant-box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+        }
+        .variant-box.dark { background: #000; }
+        .variant-box.light { background: #fff; }
+        .variant-label {
+            font-size: 0.6rem;
+            color: #52525b;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .formula {
+            margin-top: 50px;
+            padding: 24px 30px;
+            background: rgba(59,130,246,0.05);
+            border-radius: 16px;
+            border-left: 3px solid #3b82f6;
+        }
+        .formula-title {
+            font-size: 0.65rem;
+            color: #3b82f6;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .formula-text {
+            color: #a1a1aa;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+        .math {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            color: #60a5fa;
+            background: rgba(59,130,246,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+        footer {
+            text-align: center;
+            padding: 80px 40px;
+            color: #3f3f46;
+        }
+    </style>
+</head>
+<body>
+    <h1>BlockRun.ai</h1>
+    <p class="subtitle">Version 3 — Timeless Geometric Design</p>
+
+    <!-- CONCEPT 1: Infinite Flow (ChatGPT-inspired interlocking loops) -->
+    <div class="concept">
+        <div class="concept-label">Concept 01</div>
+        <h2 class="concept-title">Infinite Flow</h2>
+        <p class="concept-desc">
+            Three interlocking curved loops forming a continuous knot pattern. Inspired by ChatGPT's
+            hexagonal blossom, this design uses pure bezier curves to create an organic yet
+            mathematically precise form. The loops represent AI, payments, and agents — forever connected.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="if1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Three interlocking loops -->
+                    <path d="M50 15 C70 15 80 30 80 50 C80 70 65 80 50 80 C35 80 25 70 25 55 C25 40 35 35 50 35 C65 35 70 45 70 55 C70 65 60 70 50 70 C40 70 35 62 35 50 C35 38 45 30 50 30"
+                          stroke="url(#if1)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="if1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M50 15 C70 15 80 30 80 50 C80 70 65 80 50 80 C35 80 25 70 25 55 C25 40 35 35 50 35 C65 35 70 45 70 55 C70 65 60 70 50 70 C40 70 35 62 35 50 C35 38 45 30 50 30"
+                              stroke="url(#if1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="if1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M50 15 C70 15 82 32 82 50 C82 70 65 85 50 85 C30 85 20 68 20 50 C20 35 35 30 50 30 C65 30 75 42 75 55 C75 68 60 75 50 75"
+                              stroke="url(#if1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="if1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="32" stroke="url(#if1d)" stroke-width="18" fill="none"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M50 15 C70 15 80 30 80 50 C80 70 65 80 50 80 C35 80 25 70 25 55 C25 40 35 35 50 35 C65 35 70 45 70 55 C70 65 60 70 50 70 C40 70 35 62 35 50 C35 38 45 30 50 30"
+                              stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M50 15 C70 15 80 30 80 50 C80 70 65 80 50 80 C35 80 25 70 25 55 C25 40 35 35 50 35 C65 35 70 45 70 55 C70 65 60 70 50 70 C40 70 35 62 35 50 C35 38 45 30 50 30"
+                              stroke="#000" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                Based on a <span class="math">logarithmic spiral</span> with three nested curves.
+                Each loop follows the equation <span class="math">r = ae^(bθ)</span> creating natural,
+                organic growth patterns found in nature. Timeless because it's mathematically pure.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 2: Orbital Harmony -->
+    <div class="concept">
+        <div class="concept-label">Concept 02</div>
+        <h2 class="concept-title">Orbital Harmony</h2>
+        <p class="concept-desc">
+            Two overlapping circles with offset centers, creating a vesica piscis — an ancient
+            geometric form representing creation and intersection. The overlap zone symbolizes
+            where AI meets payments. Pure, balanced, eternal.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="oh1" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Left circle -->
+                    <circle cx="38" cy="50" r="28" stroke="url(#oh1)" stroke-width="8" fill="none"/>
+                    <!-- Right circle -->
+                    <circle cx="62" cy="50" r="28" stroke="url(#oh1)" stroke-width="8" fill="none" opacity="0.6"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="oh1b" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="38" cy="50" r="28" stroke="url(#oh1b)" stroke-width="9" fill="none"/>
+                        <circle cx="62" cy="50" r="28" stroke="url(#oh1b)" stroke-width="9" fill="none" opacity="0.6"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="oh1c" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="38" cy="50" r="26" stroke="url(#oh1c)" stroke-width="12" fill="none"/>
+                        <circle cx="62" cy="50" r="26" stroke="url(#oh1c)" stroke-width="12" fill="none" opacity="0.6"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="oh1d" x1="0%" y1="50%" x2="100%" y2="50%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="36" cy="50" r="24" stroke="url(#oh1d)" stroke-width="16" fill="none"/>
+                        <circle cx="64" cy="50" r="24" stroke="url(#oh1d)" stroke-width="16" fill="none" opacity="0.5"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="38" cy="50" r="28" stroke="#fff" stroke-width="8" fill="none"/>
+                        <circle cx="62" cy="50" r="28" stroke="#fff" stroke-width="8" fill="none" opacity="0.5"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="38" cy="50" r="28" stroke="#000" stroke-width="8" fill="none"/>
+                        <circle cx="62" cy="50" r="28" stroke="#000" stroke-width="8" fill="none" opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                The <span class="math">Vesica Piscis</span> — formed when two circles of equal radius
+                overlap so each center lies on the other's circumference. Ratio of overlap follows
+                <span class="math">√3 : 1</span>. Used in sacred geometry for millennia.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 3: Golden Spiral -->
+    <div class="concept">
+        <div class="concept-label">Concept 03</div>
+        <h2 class="concept-title">Golden Spiral</h2>
+        <p class="concept-desc">
+            A single continuous curve based on the golden ratio, spiraling inward. Represents
+            growth, evolution, and natural perfection. The same pattern found in galaxies,
+            shells, and flowers. Mathematically perfect, universally beautiful.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="gs1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Golden spiral approximation using arcs -->
+                    <path d="M85 50
+                             A35 35 0 0 1 50 85
+                             A27 27 0 0 1 23 58
+                             A20 20 0 0 1 43 38
+                             A14 14 0 0 1 57 52
+                             A10 10 0 0 1 47 62
+                             A7 7 0 0 1 40 55
+                             A5 5 0 0 1 45 50"
+                          stroke="url(#gs1)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="gs1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M85 50 A35 35 0 0 1 50 85 A27 27 0 0 1 23 58 A20 20 0 0 1 43 38 A14 14 0 0 1 57 52 A10 10 0 0 1 47 62 A7 7 0 0 1 40 55"
+                              stroke="url(#gs1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="gs1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M85 50 A35 35 0 0 1 50 85 A27 27 0 0 1 23 58 A20 20 0 0 1 43 38 A14 14 0 0 1 57 52"
+                              stroke="url(#gs1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="gs1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M82 50 A32 32 0 0 1 50 82 A25 25 0 0 1 25 57 A18 18 0 0 1 43 39"
+                              stroke="url(#gs1d)" stroke-width="16" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M85 50 A35 35 0 0 1 50 85 A27 27 0 0 1 23 58 A20 20 0 0 1 43 38 A14 14 0 0 1 57 52 A10 10 0 0 1 47 62"
+                              stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M85 50 A35 35 0 0 1 50 85 A27 27 0 0 1 23 58 A20 20 0 0 1 43 38 A14 14 0 0 1 57 52 A10 10 0 0 1 47 62"
+                              stroke="#000" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                The <span class="math">Golden Spiral</span> follows <span class="math">φ = 1.618...</span>
+                Each quarter turn expands by the golden ratio. Found in nautilus shells, hurricanes,
+                and galaxies. Represents infinite growth within finite space — perfect for AI evolution.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 4: Trefoil Knot -->
+    <div class="concept">
+        <div class="concept-label">Concept 04</div>
+        <h2 class="concept-title">Trefoil Knot</h2>
+        <p class="concept-desc">
+            A continuous three-lobed knot with no beginning or end. The simplest non-trivial
+            knot in mathematics, representing unity and infinite connection. Three loops for
+            three pillars: AI, payments, blockchain — eternally intertwined.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="tk1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Trefoil knot - three overlapping loops -->
+                    <path d="M50 20
+                             C65 20 75 35 70 50
+                             C65 65 50 70 50 70
+                             C50 70 35 65 30 50
+                             C25 35 35 20 50 20"
+                          stroke="url(#tk1)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <circle cx="50" cy="28" r="14" stroke="url(#tk1)" stroke-width="8" fill="none" opacity="0.6"/>
+                    <circle cx="36" cy="58" r="14" stroke="url(#tk1)" stroke-width="8" fill="none" opacity="0.4"/>
+                    <circle cx="64" cy="58" r="14" stroke="url(#tk1)" stroke-width="8" fill="none" opacity="0.4"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tk1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="30" r="16" stroke="url(#tk1b)" stroke-width="9" fill="none"/>
+                        <circle cx="35" cy="58" r="16" stroke="url(#tk1b)" stroke-width="9" fill="none" opacity="0.6"/>
+                        <circle cx="65" cy="58" r="16" stroke="url(#tk1b)" stroke-width="9" fill="none" opacity="0.4"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tk1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="32" r="18" stroke="url(#tk1c)" stroke-width="12" fill="none"/>
+                        <circle cx="34" cy="60" r="18" stroke="url(#tk1c)" stroke-width="12" fill="none" opacity="0.5"/>
+                        <circle cx="66" cy="60" r="18" stroke="url(#tk1c)" stroke-width="12" fill="none" opacity="0.35"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tk1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="35" r="22" stroke="url(#tk1d)" stroke-width="16" fill="none"/>
+                        <circle cx="50" cy="65" r="18" stroke="url(#tk1d)" stroke-width="14" fill="none" opacity="0.4"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="30" r="16" stroke="#fff" stroke-width="8" fill="none"/>
+                        <circle cx="35" cy="58" r="16" stroke="#fff" stroke-width="8" fill="none" opacity="0.5"/>
+                        <circle cx="65" cy="58" r="16" stroke="#fff" stroke-width="8" fill="none" opacity="0.35"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="30" r="16" stroke="#000" stroke-width="8" fill="none"/>
+                        <circle cx="35" cy="58" r="16" stroke="#000" stroke-width="8" fill="none" opacity="0.4"/>
+                        <circle cx="65" cy="58" r="16" stroke="#000" stroke-width="8" fill="none" opacity="0.25"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                The <span class="math">Trefoil Knot</span> is defined parametrically as
+                <span class="math">x = sin(t) + 2sin(2t)</span>, <span class="math">y = cos(t) - 2cos(2t)</span>.
+                It cannot be untied without cutting — representing unbreakable bonds. Used since antiquity.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 5: Seed of Life -->
+    <div class="concept">
+        <div class="concept-label">Concept 05</div>
+        <h2 class="concept-title">Seed of Life</h2>
+        <p class="concept-desc">
+            Seven overlapping circles in perfect hexagonal symmetry — an ancient symbol of
+            creation found in temples worldwide. Simplified to its essence: a central core
+            surrounded by six petals. Represents the genesis of all AI capabilities.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="sl1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Center circle -->
+                    <circle cx="50" cy="50" r="18" stroke="url(#sl1)" stroke-width="6" fill="none"/>
+                    <!-- Six surrounding circles (hexagonal arrangement) -->
+                    <circle cx="50" cy="32" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.7"/>
+                    <circle cx="65.6" cy="41" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.6"/>
+                    <circle cx="65.6" cy="59" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.5"/>
+                    <circle cx="50" cy="68" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.4"/>
+                    <circle cx="34.4" cy="59" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.5"/>
+                    <circle cx="34.4" cy="41" r="18" stroke="url(#sl1)" stroke-width="6" fill="none" opacity="0.6"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="sl1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none"/>
+                        <circle cx="50" cy="32" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.6"/>
+                        <circle cx="65.6" cy="41" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.5"/>
+                        <circle cx="65.6" cy="59" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.4"/>
+                        <circle cx="50" cy="68" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.35"/>
+                        <circle cx="34.4" cy="59" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.4"/>
+                        <circle cx="34.4" cy="41" r="18" stroke="url(#sl1b)" stroke-width="7" fill="none" opacity="0.5"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="sl1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="20" stroke="url(#sl1c)" stroke-width="10" fill="none"/>
+                        <circle cx="50" cy="30" r="20" stroke="url(#sl1c)" stroke-width="10" fill="none" opacity="0.5"/>
+                        <circle cx="50" cy="70" r="20" stroke="url(#sl1c)" stroke-width="10" fill="none" opacity="0.35"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="sl1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="28" stroke="url(#sl1d)" stroke-width="16" fill="none"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="18" stroke="#fff" stroke-width="6" fill="none"/>
+                        <circle cx="50" cy="32" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.6"/>
+                        <circle cx="65.6" cy="41" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.5"/>
+                        <circle cx="65.6" cy="59" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.4"/>
+                        <circle cx="50" cy="68" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.35"/>
+                        <circle cx="34.4" cy="59" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.4"/>
+                        <circle cx="34.4" cy="41" r="18" stroke="#fff" stroke-width="6" fill="none" opacity="0.5"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="18" stroke="#000" stroke-width="6" fill="none"/>
+                        <circle cx="50" cy="32" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.5"/>
+                        <circle cx="65.6" cy="41" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.4"/>
+                        <circle cx="65.6" cy="59" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.3"/>
+                        <circle cx="50" cy="68" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.25"/>
+                        <circle cx="34.4" cy="59" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.3"/>
+                        <circle cx="34.4" cy="41" r="18" stroke="#000" stroke-width="6" fill="none" opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                <span class="math">Hexagonal close packing</span> — the most efficient way to arrange
+                circles. Each surrounding circle's center is exactly <span class="math">r</span> from the center.
+                Found in honeycombs, crystals, and ancient temples. Represents perfect harmony.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 6: Möbius Ring -->
+    <div class="concept">
+        <div class="concept-label">Concept 06</div>
+        <h2 class="concept-title">Möbius Ring</h2>
+        <p class="concept-desc">
+            A simplified, bold interpretation of the Möbius strip — a surface with only one side.
+            Two curves that appear separate but are actually one continuous path. Represents
+            the seamless, infinite loop of autonomous agent operation.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="mr1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Two intertwined arcs creating möbius illusion -->
+                    <path d="M20 50 C20 25, 50 20, 80 50" stroke="url(#mr1)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                    <path d="M80 50 C80 75, 50 80, 20 50" stroke="url(#mr1)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.5"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="mr1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M20 50 C20 25, 50 20, 80 50" stroke="url(#mr1b)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                        <path d="M80 50 C80 75, 50 80, 20 50" stroke="url(#mr1b)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.5"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="mr1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <path d="M18 50 C18 22, 50 18, 82 50" stroke="url(#mr1c)" stroke-width="16" stroke-linecap="round" fill="none"/>
+                        <path d="M82 50 C82 78, 50 82, 18 50" stroke="url(#mr1c)" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.5"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="mr1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <ellipse cx="50" cy="50" rx="32" ry="24" stroke="url(#mr1d)" stroke-width="18" fill="none"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M20 50 C20 25, 50 20, 80 50" stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none"/>
+                        <path d="M80 50 C80 75, 50 80, 20 50" stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <path d="M20 50 C20 25, 50 20, 80 50" stroke="#000" stroke-width="10" stroke-linecap="round" fill="none"/>
+                        <path d="M80 50 C80 75, 50 80, 20 50" stroke="#000" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.35"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                The <span class="math">Möbius strip</span> has Euler characteristic <span class="math">χ = 0</span>.
+                Represented here as two complementary bezier curves. The twist creates depth from 2D.
+                Symbolizes continuity without beginning or end — perfect for autonomous systems.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 7: Torus Flow -->
+    <div class="concept">
+        <div class="concept-label">Concept 07</div>
+        <h2 class="concept-title">Torus Flow</h2>
+        <p class="concept-desc">
+            Concentric circles with subtle offset, suggesting a torus (donut) viewed from above.
+            Energy flows from center outward and returns — a closed system of perpetual motion.
+            Represents the self-sustaining ecosystem of autonomous agents.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="tf1" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Concentric rings with offset -->
+                    <circle cx="50" cy="50" r="38" stroke="url(#tf1)" stroke-width="6" fill="none" opacity="0.3"/>
+                    <circle cx="50" cy="50" r="28" stroke="url(#tf1)" stroke-width="7" fill="none" opacity="0.5"/>
+                    <circle cx="50" cy="50" r="18" stroke="url(#tf1)" stroke-width="8" fill="none" opacity="0.75"/>
+                    <circle cx="50" cy="50" r="8" fill="url(#tf1)"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tf1b" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="36" stroke="url(#tf1b)" stroke-width="7" fill="none" opacity="0.35"/>
+                        <circle cx="50" cy="50" r="24" stroke="url(#tf1b)" stroke-width="8" fill="none" opacity="0.6"/>
+                        <circle cx="50" cy="50" r="12" stroke="url(#tf1b)" stroke-width="9" fill="none" opacity="0.85"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tf1c" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="34" stroke="url(#tf1c)" stroke-width="10" fill="none" opacity="0.4"/>
+                        <circle cx="50" cy="50" r="18" stroke="url(#tf1c)" stroke-width="12" fill="none" opacity="0.8"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="tf1d" x1="50%" y1="0%" x2="50%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="30" stroke="url(#tf1d)" stroke-width="18" fill="none"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="36" stroke="#fff" stroke-width="6" fill="none" opacity="0.25"/>
+                        <circle cx="50" cy="50" r="24" stroke="#fff" stroke-width="7" fill="none" opacity="0.5"/>
+                        <circle cx="50" cy="50" r="12" stroke="#fff" stroke-width="8" fill="none" opacity="0.8"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="36" stroke="#000" stroke-width="6" fill="none" opacity="0.2"/>
+                        <circle cx="50" cy="50" r="24" stroke="#000" stroke-width="7" fill="none" opacity="0.4"/>
+                        <circle cx="50" cy="50" r="12" stroke="#000" stroke-width="8" fill="none" opacity="0.7"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                A <span class="math">Torus</span> cross-section with radii following
+                <span class="math">R₁ : R₂ : R₃ = φ² : φ : 1</span> (golden ratio progression).
+                The varying stroke weights create depth. Represents cycles within cycles —
+                the heartbeat of autonomous systems.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONCEPT 8: Infinity Bloom (ChatGPT-closest) -->
+    <div class="concept">
+        <div class="concept-label">Concept 08 — Recommended</div>
+        <h2 class="concept-title">Infinity Bloom</h2>
+        <p class="concept-desc">
+            The closest interpretation to ChatGPT's aesthetic: six curved petals emanating from
+            a central point, creating a flower-like bloom. Each petal is a bezier curve following
+            the golden angle. Organic, mathematical, timeless.
+        </p>
+
+        <div class="logo-grid">
+            <div class="logo-main">
+                <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
+                    <defs>
+                        <linearGradient id="ib1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/>
+                            <stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Six curved petals -->
+                    <g stroke="url(#ib1)" stroke-width="8" stroke-linecap="round" fill="none">
+                        <!-- Petal 1 (top) -->
+                        <path d="M50 50 Q50 30, 50 18 Q50 30, 62 38" opacity="1"/>
+                        <!-- Petal 2 -->
+                        <path d="M50 50 Q65 40, 77 32 Q65 40, 68 55" opacity="0.85"/>
+                        <!-- Petal 3 -->
+                        <path d="M50 50 Q68 55, 80 62 Q68 55, 62 70" opacity="0.7"/>
+                        <!-- Petal 4 -->
+                        <path d="M50 50 Q55 70, 55 84 Q55 70, 42 65" opacity="0.6"/>
+                        <!-- Petal 5 -->
+                        <path d="M50 50 Q38 65, 25 72 Q38 65, 35 50" opacity="0.5"/>
+                        <!-- Petal 6 -->
+                        <path d="M50 50 Q32 50, 20 50 Q32 50, 38 38" opacity="0.4"/>
+                    </g>
+                    <!-- Center -->
+                    <circle cx="50" cy="50" r="6" fill="url(#ib1)"/>
+                </svg>
+            </div>
+            <div class="logo-sizes">
+                <div class="logo-size">
+                    <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="ib1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <g stroke="url(#ib1b)" stroke-width="9" stroke-linecap="round" fill="none">
+                            <path d="M50 50 Q50 30, 50 18 Q50 30, 62 38"/>
+                            <path d="M50 50 Q65 40, 77 32 Q65 40, 68 55" opacity="0.8"/>
+                            <path d="M50 50 Q68 55, 80 62 Q68 55, 62 70" opacity="0.6"/>
+                            <path d="M50 50 Q55 70, 55 84 Q55 70, 42 65" opacity="0.5"/>
+                            <path d="M50 50 Q38 65, 25 72 Q38 65, 35 50" opacity="0.4"/>
+                            <path d="M50 50 Q32 50, 20 50 Q32 50, 38 38" opacity="0.3"/>
+                        </g>
+                        <circle cx="50" cy="50" r="7" fill="url(#ib1b)"/>
+                    </svg>
+                    <span class="size-label">64px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="ib1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <g stroke="url(#ib1c)" stroke-width="12" stroke-linecap="round" fill="none">
+                            <path d="M50 50 L50 20"/>
+                            <path d="M50 50 L76 35" opacity="0.7"/>
+                            <path d="M50 50 L76 65" opacity="0.5"/>
+                            <path d="M50 50 L50 80" opacity="0.4"/>
+                            <path d="M50 50 L24 65" opacity="0.35"/>
+                            <path d="M50 50 L24 35" opacity="0.3"/>
+                        </g>
+                        <circle cx="50" cy="50" r="9" fill="url(#ib1c)"/>
+                    </svg>
+                    <span class="size-label">32px</span>
+                </div>
+                <div class="logo-size">
+                    <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
+                        <defs><linearGradient id="ib1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
+                        </linearGradient></defs>
+                        <circle cx="50" cy="50" r="12" fill="url(#ib1d)"/>
+                        <circle cx="50" cy="50" r="30" stroke="url(#ib1d)" stroke-width="14" fill="none" opacity="0.5"/>
+                    </svg>
+                    <span class="size-label">16px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="variants">
+            <div class="variant">
+                <div class="variant-box dark">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <g stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none">
+                            <path d="M50 50 Q50 30, 50 18 Q50 30, 62 38"/>
+                            <path d="M50 50 Q65 40, 77 32 Q65 40, 68 55" opacity="0.7"/>
+                            <path d="M50 50 Q68 55, 80 62 Q68 55, 62 70" opacity="0.5"/>
+                            <path d="M50 50 Q55 70, 55 84 Q55 70, 42 65" opacity="0.4"/>
+                            <path d="M50 50 Q38 65, 25 72 Q38 65, 35 50" opacity="0.35"/>
+                            <path d="M50 50 Q32 50, 20 50 Q32 50, 38 38" opacity="0.3"/>
+                        </g>
+                        <circle cx="50" cy="50" r="6" fill="#fff"/>
+                    </svg>
+                </div>
+                <span class="variant-label">White</span>
+            </div>
+            <div class="variant">
+                <div class="variant-box light">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+                        <g stroke="#000" stroke-width="8" stroke-linecap="round" fill="none">
+                            <path d="M50 50 Q50 30, 50 18 Q50 30, 62 38"/>
+                            <path d="M50 50 Q65 40, 77 32 Q65 40, 68 55" opacity="0.6"/>
+                            <path d="M50 50 Q68 55, 80 62 Q68 55, 62 70" opacity="0.45"/>
+                            <path d="M50 50 Q55 70, 55 84 Q55 70, 42 65" opacity="0.35"/>
+                            <path d="M50 50 Q38 65, 25 72 Q38 65, 35 50" opacity="0.28"/>
+                            <path d="M50 50 Q32 50, 20 50 Q32 50, 38 38" opacity="0.22"/>
+                        </g>
+                        <circle cx="50" cy="50" r="6" fill="#000"/>
+                    </svg>
+                </div>
+                <span class="variant-label">Black</span>
+            </div>
+        </div>
+
+        <div class="formula">
+            <div class="formula-title">Geometric Principle</div>
+            <p class="formula-text">
+                Petals arranged at <span class="math">137.5°</span> intervals — the
+                <span class="math">Golden Angle</span> found in sunflower seeds and pine cones.
+                This is how nature optimizes space. The curves follow
+                <span class="math">cubic bezier</span> functions for organic smoothness.
+                This is the mathematical foundation of ChatGPT's logo philosophy.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>BlockRun.ai Logo V3 — Timeless Mathematical Geometry</p>
+        <p style="margin-top: 8px;">All curves based on φ, π, and natural mathematical constants</p>
+    </footer>
+</body>
+</html>
