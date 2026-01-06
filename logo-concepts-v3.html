@@ -150,58 +150,64 @@
     <h1>BlockRun.ai</h1>
     <p class="subtitle">Version 3 — Timeless Geometric Design</p>
 
-    <!-- CONCEPT 1: Vesica Piscis -->
+    <!-- CONCEPT 1: Euler Spiral (Clothoid) -->
     <div class="concept">
         <div class="concept-label">Concept 01</div>
-        <h2 class="concept-title">Vesica Piscis</h2>
+        <h2 class="concept-title">Euler Spiral</h2>
         <p class="concept-desc">
-            Two circles of equal radius, each passing through the other's center. This sacred geometry
-            shape — the "fish bladder" — has been used for millennia in architecture, art, and mathematics.
-            It represents duality, creation, and the intersection of two worlds: AI and finance.
+            The Clothoid — where curvature κ = s (curvature equals arc length). The ONLY curve with this
+            property. Used in highway and railway design because it creates the smoothest possible
+            transition. Two mirrored spirals meet at the origin. Discovered by Euler, 1744.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="vp1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="es1" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Two overlapping circles -->
-                    <circle cx="35" cy="50" r="28" stroke="url(#vp1)" stroke-width="7" fill="none"/>
-                    <circle cx="65" cy="50" r="28" stroke="url(#vp1)" stroke-width="7" fill="none"/>
+                    <!-- Euler Spiral (Cornu Spiral / Clothoid) - two mirrored spirals -->
+                    <path d="M50 50 C55 50, 60 45, 68 38 C76 31, 82 22, 85 15"
+                          stroke="url(#es1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                    <path d="M50 50 C45 50, 40 55, 32 62 C24 69, 18 78, 15 85"
+                          stroke="url(#es1)" stroke-width="7" stroke-linecap="round" fill="none"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="vp1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="es1b" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="35" cy="50" r="28" stroke="url(#vp1b)" stroke-width="9" fill="none"/>
-                        <circle cx="65" cy="50" r="28" stroke="url(#vp1b)" stroke-width="9" fill="none"/>
+                        <path d="M50 50 C55 50, 60 45, 68 38 C76 31, 82 22, 85 15"
+                              stroke="url(#es1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C45 50, 40 55, 32 62 C24 69, 18 78, 15 85"
+                              stroke="url(#es1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="vp1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="es1c" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="35" cy="50" r="30" stroke="url(#vp1c)" stroke-width="12" fill="none"/>
-                        <circle cx="65" cy="50" r="30" stroke="url(#vp1c)" stroke-width="12" fill="none"/>
+                        <path d="M50 50 C58 50, 65 42, 72 32 C79 22, 85 14, 88 10"
+                              stroke="url(#es1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C42 50, 35 58, 28 68 C21 78, 15 86, 12 90"
+                              stroke="url(#es1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="vp1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="es1d" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="35" cy="50" r="32" stroke="url(#vp1d)" stroke-width="16" fill="none"/>
-                        <circle cx="65" cy="50" r="32" stroke="url(#vp1d)" stroke-width="16" fill="none"/>
+                        <path d="M15 85 C25 70, 40 55, 50 50 C60 45, 75 30, 85 15"
+                              stroke="url(#es1d)" stroke-width="16" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -212,8 +218,10 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <circle cx="35" cy="50" r="28" stroke="#fff" stroke-width="7" fill="none"/>
-                        <circle cx="65" cy="50" r="28" stroke="#fff" stroke-width="7" fill="none"/>
+                        <path d="M50 50 C55 50, 60 45, 68 38 C76 31, 82 22, 85 15"
+                              stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C45 50, 40 55, 32 62 C24 69, 18 78, 15 85"
+                              stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">White</span>
@@ -221,8 +229,10 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <circle cx="35" cy="50" r="28" stroke="#000" stroke-width="7" fill="none"/>
-                        <circle cx="65" cy="50" r="28" stroke="#000" stroke-width="7" fill="none"/>
+                        <path d="M50 50 C55 50, 60 45, 68 38 C76 31, 82 22, 85 15"
+                              stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C45 50, 40 55, 32 62 C24 69, 18 78, 15 85"
+                              stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">Black</span>
@@ -230,67 +240,68 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                The <span class="math">Vesica Piscis</span> has a height-to-width ratio of <span class="math">√3 ≈ 1.732</span>.
-                Used in Gothic cathedral architecture, the Flower of Life, and Euclid's Elements.
-                The intersection creates the basis for constructing equilateral triangles and hexagons.
-                One of the most fundamental forms in sacred geometry.
+                <span class="math">x(t) = ∫cos(πs²/2)ds</span>, <span class="math">y(t) = ∫sin(πs²/2)ds</span>
+                (Fresnel integrals). The defining property: <span class="math">κ = s</span> — curvature equals
+                arc length. This creates the smoothest possible transition from straight to curved.
+                Used in highway design, roller coasters, and font design (spiro curves).
             </p>
         </div>
     </div>
 
-    <!-- CONCEPT 2: Lissajous Curve -->
+    <!-- CONCEPT 2: Logarithmic Spiral -->
     <div class="concept">
         <div class="concept-label">Concept 02</div>
-        <h2 class="concept-title">Lissajous</h2>
+        <h2 class="concept-title">Spira Mirabilis</h2>
         <p class="concept-desc">
-            A Lissajous curve with 1:2 frequency ratio — the figure created when two perpendicular
-            oscillations combine. Used to visualize sound waves on oscilloscopes. Represents harmony,
-            synchronization, and the beautiful mathematics of wave interference.
+            The "miraculous spiral" — Jakob Bernoulli's name for the logarithmic spiral. The ONLY curve
+            that maintains its shape at any scale (self-similarity). Found in nautilus shells, spiral
+            galaxies, hurricanes, and sunflower seeds. Nature's universal pattern.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="lj1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="ls1" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Lissajous 1:2 curve (figure-8 variant) -->
-                    <path d="M50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85 C25 85, 15 65, 15 50 C15 35, 25 15, 50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85"
-                          stroke="url(#lj1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                    <!-- Logarithmic Spiral: r = ae^(bθ), one full turn -->
+                    <path d="M50 50 C50 45, 55 42, 60 42 C70 42, 75 50, 75 58 C75 72, 62 82, 48 82 C30 82, 18 68, 18 50 C18 28, 38 12, 58 12 C82 12, 95 35, 95 55"
+                          stroke="url(#ls1)" stroke-width="7" stroke-linecap="round" fill="none"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="lj1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ls1b" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <path d="M50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85 C25 85, 15 65, 15 50 C15 35, 25 15, 50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85"
-                              stroke="url(#lj1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C50 45, 55 42, 60 42 C70 42, 75 50, 75 58 C75 72, 62 82, 48 82 C30 82, 18 68, 18 50 C18 28, 38 12, 58 12 C82 12, 95 35, 95 55"
+                              stroke="url(#ls1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="lj1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ls1c" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <path d="M50 12 C78 12, 88 35, 88 50 C88 65, 78 88, 50 88 C22 88, 12 65, 12 50 C12 35, 22 12, 50 12 C78 12, 88 35, 88 50 C88 65, 78 88, 50 88"
-                              stroke="url(#lj1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
+                        <path d="M50 50 C50 44, 56 40, 62 40 C74 40, 80 52, 80 62 C80 78, 65 88, 48 88 C26 88, 12 70, 12 48 C12 22, 35 5, 60 5 C88 5, 98 32, 98 55"
+                              stroke="url(#ls1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="lj1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ls1d" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="50" cy="50" r="35" stroke="url(#lj1d)" stroke-width="18" fill="none"/>
+                        <path d="M50 50 C50 42, 58 38, 66 38 C80 38, 88 55, 88 68 C88 88, 68 98, 48 98 C20 98, 2 72, 2 45"
+                              stroke="url(#ls1d)" stroke-width="18" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -301,7 +312,7 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <path d="M50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85 C25 85, 15 65, 15 50 C15 35, 25 15, 50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85"
+                        <path d="M50 50 C50 45, 55 42, 60 42 C70 42, 75 50, 75 58 C75 72, 62 82, 48 82 C30 82, 18 68, 18 50 C18 28, 38 12, 58 12 C82 12, 95 35, 95 55"
                               stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
@@ -310,7 +321,7 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <path d="M50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85 C25 85, 15 65, 15 50 C15 35, 25 15, 50 15 C75 15, 85 35, 85 50 C85 65, 75 85, 50 85"
+                        <path d="M50 50 C50 45, 55 42, 60 42 C70 42, 75 50, 75 58 C75 72, 62 82, 48 82 C30 82, 18 68, 18 50 C18 28, 38 12, 58 12 C82 12, 95 35, 95 55"
                               stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
@@ -319,70 +330,71 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                <span class="math">Lissajous curves</span> follow <span class="math">x = A·sin(at + δ), y = B·sin(bt)</span>.
-                This 1:2 ratio creates a smooth, continuous loop. Named after Jules Antoine Lissajous (1857).
-                Used in oscilloscopes, harmonographs, and music visualization. The visual language of waves.
+                <span class="math">r = ae^(bθ)</span> in polar coordinates. Key property: self-similarity —
+                scaling by any factor produces the same shape, just rotated. Bernoulli loved it so much
+                he requested it on his tombstone with "Eadem mutata resurgo" (Though changed, I arise the same).
+                The golden spiral uses <span class="math">b = ln(φ)/(π/2)</span>.
             </p>
         </div>
     </div>
 
-    <!-- CONCEPT 3: Block Wave -->
+    <!-- CONCEPT 3: Cycloid (Brachistochrone) -->
     <div class="concept">
         <div class="concept-label">Concept 03</div>
-        <h2 class="concept-title">Block Wave</h2>
+        <h2 class="concept-title">Brachistochrone</h2>
         <p class="concept-desc">
-            A bold rounded rectangle (the "block" in BlockRun) with a smooth sine wave flowing through
-            its center. Combines solidity with motion — the stable foundation of blockchain meets the
-            dynamic flow of AI agents. Simple, confident, unmistakable.
+            The cycloid — curve traced by a point on a rolling circle. The solution to the Brachistochrone
+            problem: the path of FASTEST descent under gravity. Also the Tautochrone: same descent time
+            from any starting point. Challenged Newton, Leibniz, and the Bernoullis.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="bw1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="cy1" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Rounded block -->
-                    <rect x="15" y="20" width="70" height="60" rx="16" stroke="url(#bw1)" stroke-width="7" fill="none"/>
-                    <!-- Wave through center -->
-                    <path d="M22 50 C30 35, 40 35, 50 50 C60 65, 70 65, 78 50"
-                          stroke="url(#bw1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                    <!-- Cycloid arch: x = r(θ - sinθ), y = r(1 - cosθ) -->
+                    <path d="M10 20 C10 20, 20 70, 50 70 C80 70, 90 20, 90 20"
+                          stroke="url(#cy1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                    <!-- Small circle showing the generating motion -->
+                    <circle cx="50" cy="45" r="8" stroke="url(#cy1)" stroke-width="4" fill="none" opacity="0.4"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="bw1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="cy1b" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <rect x="15" y="20" width="70" height="60" rx="16" stroke="url(#bw1b)" stroke-width="9" fill="none"/>
-                        <path d="M22 50 C30 35, 40 35, 50 50 C60 65, 70 65, 78 50"
-                              stroke="url(#bw1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                        <path d="M10 20 C10 20, 20 70, 50 70 C80 70, 90 20, 90 20"
+                              stroke="url(#cy1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                        <circle cx="50" cy="45" r="9" stroke="url(#cy1b)" stroke-width="5" fill="none" opacity="0.4"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="bw1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="cy1c" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <rect x="12" y="18" width="76" height="64" rx="18" stroke="url(#bw1c)" stroke-width="12" fill="none"/>
-                        <path d="M20 50 C32 32, 42 32, 50 50 C58 68, 68 68, 80 50"
-                              stroke="url(#bw1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                        <path d="M8 18 C8 18, 18 75, 50 75 C82 75, 92 18, 92 18"
+                              stroke="url(#cy1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="bw1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="cy1d" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <rect x="10" y="15" width="80" height="70" rx="20" stroke="url(#bw1d)" stroke-width="16" fill="none"/>
+                        <path d="M5 15 C5 15, 15 80, 50 80 C85 80, 95 15, 95 15"
+                              stroke="url(#cy1d)" stroke-width="18" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -393,9 +405,9 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <rect x="15" y="20" width="70" height="60" rx="16" stroke="#fff" stroke-width="7" fill="none"/>
-                        <path d="M22 50 C30 35, 40 35, 50 50 C60 65, 70 65, 78 50"
+                        <path d="M10 20 C10 20, 20 70, 50 70 C80 70, 90 20, 90 20"
                               stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
+                        <circle cx="50" cy="45" r="8" stroke="#fff" stroke-width="4" fill="none" opacity="0.4"/>
                     </svg>
                 </div>
                 <span class="variant-label">White</span>
@@ -403,9 +415,9 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <rect x="15" y="20" width="70" height="60" rx="16" stroke="#000" stroke-width="7" fill="none"/>
-                        <path d="M22 50 C30 35, 40 35, 50 50 C60 65, 70 65, 78 50"
+                        <path d="M10 20 C10 20, 20 70, 50 70 C80 70, 90 20, 90 20"
                               stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
+                        <circle cx="50" cy="45" r="8" stroke="#000" stroke-width="4" fill="none" opacity="0.4"/>
                     </svg>
                 </div>
                 <span class="variant-label">Black</span>
@@ -413,67 +425,68 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                Combines a <span class="math">rounded rectangle</span> with a <span class="math">sine wave y = A·sin(ωx)</span>.
-                The block represents stability and structure (like Block Inc). The wave represents flow,
-                motion, and continuous operation. Together: the foundation that enables movement.
-                Direct, bold, memorable.
+                <span class="math">x = r(θ - sinθ)</span>, <span class="math">y = r(1 - cosθ)</span>.
+                The Brachistochrone (Greek: "shortest time") proved by Johann Bernoulli in 1696.
+                Famously challenged the greatest mathematicians of the era. Newton solved it overnight.
+                Demonstrates that the shortest path isn't always the fastest.
             </p>
         </div>
     </div>
 
-    <!-- CONCEPT 4: Four-Leaf Rose -->
+    <!-- CONCEPT 4: Catenary -->
     <div class="concept">
         <div class="concept-label">Concept 04</div>
-        <h2 class="concept-title">Rhodonea</h2>
+        <h2 class="concept-title">Catenary</h2>
         <p class="concept-desc">
-            The four-petal rose curve (rhodonea) — one of the most beautiful polar curves in mathematics.
-            Created by the equation r = cos(2θ), it produces four perfectly symmetric petals that touch
-            at the origin. Named from the Greek "rhodon" (rose). Pure mathematical elegance.
+            The "chain curve" — the shape of a perfectly flexible chain hanging under gravity.
+            Minimizes potential energy. Used by Gaudí for the Sagrada Família (inverted for arches),
+            and shapes the Gateway Arch. Natural equilibrium made visible.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="fl1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="ct1" x1="0%" y1="100%" x2="100%" y2="0%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Four-petal rose curve: r = cos(2θ) -->
-                    <path d="M50 50 C50 30, 70 15, 85 15 C70 15, 50 30, 50 50 C70 50, 85 70, 85 85 C85 70, 70 50, 50 50 C50 70, 30 85, 15 85 C30 85, 50 70, 50 50 C30 50, 15 30, 15 15 C15 30, 30 50, 50 50"
-                          stroke="url(#fl1)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                    <!-- Catenary: y = a·cosh(x/a), inverted for arch -->
+                    <path d="M10 25 C10 25, 25 85, 50 85 C75 85, 90 25, 90 25"
+                          stroke="url(#ct1)" stroke-width="7" stroke-linecap="round" fill="none"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="fl1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ct1b" x1="0%" y1="100%" x2="100%" y2="0%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <path d="M50 50 C50 30, 70 15, 85 15 C70 15, 50 30, 50 50 C70 50, 85 70, 85 85 C85 70, 70 50, 50 50 C50 70, 30 85, 15 85 C30 85, 50 70, 50 50 C30 50, 15 30, 15 15 C15 30, 30 50, 50 50"
-                              stroke="url(#fl1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                        <path d="M10 25 C10 25, 25 85, 50 85 C75 85, 90 25, 90 25"
+                              stroke="url(#ct1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="fl1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ct1c" x1="0%" y1="100%" x2="100%" y2="0%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <path d="M50 50 C50 28, 72 12, 88 12 C72 12, 50 28, 50 50 C72 50, 88 72, 88 88 C88 72, 72 50, 50 50 C50 72, 28 88, 12 88 C28 88, 50 72, 50 50 C28 50, 12 28, 12 12 C12 28, 28 50, 50 50"
-                              stroke="url(#fl1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                        <path d="M8 22 C8 22, 24 88, 50 88 C76 88, 92 22, 92 22"
+                              stroke="url(#ct1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="fl1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="ct1d" x1="0%" y1="100%" x2="100%" y2="0%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="50" cy="50" r="35" stroke="url(#fl1d)" stroke-width="18" fill="none"/>
+                        <path d="M5 20 C5 20, 22 92, 50 92 C78 92, 95 20, 95 20"
+                              stroke="url(#ct1d)" stroke-width="18" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -484,7 +497,7 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <path d="M50 50 C50 30, 70 15, 85 15 C70 15, 50 30, 50 50 C70 50, 85 70, 85 85 C85 70, 70 50, 50 50 C50 70, 30 85, 15 85 C30 85, 50 70, 50 50 C30 50, 15 30, 15 15 C15 30, 30 50, 50 50"
+                        <path d="M10 25 C10 25, 25 85, 50 85 C75 85, 90 25, 90 25"
                               stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
@@ -493,7 +506,7 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <path d="M50 50 C50 30, 70 15, 85 15 C70 15, 50 30, 50 50 C70 50, 85 70, 85 85 C85 70, 70 50, 50 50 C50 70, 30 85, 15 85 C30 85, 50 70, 50 50 C30 50, 15 30, 15 15 C15 30, 30 50, 50 50"
+                        <path d="M10 25 C10 25, 25 85, 50 85 C75 85, 90 25, 90 25"
                               stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
@@ -502,12 +515,12 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                The <span class="math">Rhodonea curve</span> follows <span class="math">r = a·cos(kθ)</span>.
-                With k=2, this creates exactly 4 petals at 45° intervals. First studied by Luigi Guido Grandi
-                in 1723. The shape appears in physics (electron orbitals) and antenna radiation patterns.
-                Mathematical beauty that transcends time.
+                <span class="math">y = a·cosh(x/a)</span> or equivalently <span class="math">y = a(eˣ/ᵃ + e⁻ˣ/ᵃ)/2</span>.
+                Not a parabola — Galileo got this wrong. The hyperbolic cosine emerges from force equilibrium.
+                Inverted, it forms the ideal arch: all forces are compressive, no bending stress.
+                The Gateway Arch and Sagrada Família use this principle.
             </p>
         </div>
     </div>
@@ -689,58 +702,58 @@
         </div>
     </div>
 
-    <!-- CONCEPT 7: Torus Ring -->
+    <!-- CONCEPT 7: Cassini Oval -->
     <div class="concept">
         <div class="concept-label">Concept 07</div>
-        <h2 class="concept-title">Torus</h2>
+        <h2 class="concept-title">Cassini Oval</h2>
         <p class="concept-desc">
-            A torus (donut shape) rendered as two concentric ellipses with connecting curves to suggest
-            3D depth. The torus represents continuous flow with no beginning or end — a surface that
-            loops infinitely. The topology of endless autonomous operation.
+            The locus of points where the PRODUCT of distances to two foci is constant. Unlike an ellipse
+            (where the SUM is constant), this creates far more beautiful curves — from smooth ovals to
+            figure-8s to separate loops. Discovered by Giovanni Cassini in 1680 while studying planetary orbits.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="tr1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="co1" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Torus: outer ellipse -->
-                    <ellipse cx="50" cy="50" rx="38" ry="25" stroke="url(#tr1)" stroke-width="7" fill="none"/>
-                    <!-- Inner hole ellipse -->
-                    <ellipse cx="50" cy="50" rx="18" ry="10" stroke="url(#tr1)" stroke-width="7" fill="none"/>
+                    <!-- Cassini Oval: figure-8 / lemniscate-like form where |PF₁|·|PF₂| = b² -->
+                    <path d="M50 50 C50 30, 70 20, 85 30 C95 38, 95 62, 85 70 C70 80, 50 70, 50 50 C50 30, 30 20, 15 30 C5 38, 5 62, 15 70 C30 80, 50 70, 50 50"
+                          stroke="url(#co1)" stroke-width="7" stroke-linecap="round" fill="none"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="tr1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="co1b" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <ellipse cx="50" cy="50" rx="38" ry="25" stroke="url(#tr1b)" stroke-width="9" fill="none"/>
-                        <ellipse cx="50" cy="50" rx="18" ry="10" stroke="url(#tr1b)" stroke-width="9" fill="none"/>
+                        <path d="M50 50 C50 30, 70 20, 85 30 C95 38, 95 62, 85 70 C70 80, 50 70, 50 50 C50 30, 30 20, 15 30 C5 38, 5 62, 15 70 C30 80, 50 70, 50 50"
+                              stroke="url(#co1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="tr1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="co1c" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <ellipse cx="50" cy="50" rx="40" ry="26" stroke="url(#tr1c)" stroke-width="12" fill="none"/>
-                        <ellipse cx="50" cy="50" rx="18" ry="10" stroke="url(#tr1c)" stroke-width="12" fill="none"/>
+                        <path d="M50 50 C50 28, 72 18, 88 30 C98 40, 98 60, 88 70 C72 82, 50 72, 50 50 C50 28, 28 18, 12 30 C2 40, 2 60, 12 70 C28 82, 50 72, 50 50"
+                              stroke="url(#co1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="tr1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="co1d" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <ellipse cx="50" cy="50" rx="40" ry="28" stroke="url(#tr1d)" stroke-width="16" fill="none"/>
+                        <path d="M50 50 C50 25, 75 15, 92 32 C100 45, 100 55, 92 68 C75 85, 50 75, 50 50 C50 25, 25 15, 8 32 C0 45, 0 55, 8 68 C25 85, 50 75, 50 50"
+                              stroke="url(#co1d)" stroke-width="18" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -751,8 +764,8 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <ellipse cx="50" cy="50" rx="38" ry="25" stroke="#fff" stroke-width="7" fill="none"/>
-                        <ellipse cx="50" cy="50" rx="18" ry="10" stroke="#fff" stroke-width="7" fill="none"/>
+                        <path d="M50 50 C50 30, 70 20, 85 30 C95 38, 95 62, 85 70 C70 80, 50 70, 50 50 C50 30, 30 20, 15 30 C5 38, 5 62, 15 70 C30 80, 50 70, 50 50"
+                              stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">White</span>
@@ -760,8 +773,8 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <ellipse cx="50" cy="50" rx="38" ry="25" stroke="#000" stroke-width="7" fill="none"/>
-                        <ellipse cx="50" cy="50" rx="18" ry="10" stroke="#000" stroke-width="7" fill="none"/>
+                        <path d="M50 50 C50 30, 70 20, 85 30 C95 38, 95 62, 85 70 C70 80, 50 70, 50 50 C50 30, 30 20, 15 30 C5 38, 5 62, 15 70 C30 80, 50 70, 50 50"
+                              stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">Black</span>
@@ -769,78 +782,68 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                The <span class="math">Torus</span> is defined parametrically as
-                <span class="math">(R + r·cosv)·cosu, (R + r·cosv)·sinu, r·sinv</span>.
-                It has Euler characteristic <span class="math">χ = 0</span> and genus 1. The only closed
-                surface (besides Klein bottle) with zero curvature. Represents infinite loops — perfect
-                for autonomous systems.
+                <span class="math">|PF₁| · |PF₂| = b²</span> — product of distances to two foci.
+                In polar: <span class="math">r⁴ - 2a²r²cos(2θ) + a⁴ = b⁴</span>. When b=a, creates the
+                Lemniscate of Bernoulli. Cassini proposed these curves for planetary orbits before
+                Kepler's ellipses were accepted. The curves change shape beautifully as b/a varies.
             </p>
         </div>
     </div>
 
-    <!-- CONCEPT 8: Taijitu (Yin Yang) -->
+    <!-- CONCEPT 8: Limaçon -->
     <div class="concept">
         <div class="concept-label">Concept 08</div>
-        <h2 class="concept-title">Taijitu</h2>
+        <h2 class="concept-title">Limaçon</h2>
         <p class="concept-desc">
-            The ancient symbol of duality and balance — mathematically constructed from circles.
-            Two interlocking tear shapes (one light, one dark) represent opposing forces in harmony.
-            Used for millennia to represent the unity of opposites. AI and finance. Code and capital.
+            The "snail curve" — discovered by Étienne Pascal (Blaise Pascal's father) in 1637. Created by
+            tracing a point on a circle rolling around another circle. Special cases include the cardioid
+            (when a=b) and the trisectrix. The inner loop appears when b > a. Pure mathematical poetry.
         </p>
 
         <div class="logo-grid">
             <div class="logo-main">
                 <svg width="160" height="160" viewBox="0 0 100 100" fill="none">
                     <defs>
-                        <linearGradient id="yy1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <linearGradient id="lm1" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/>
                             <stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient>
                     </defs>
-                    <!-- Outer circle -->
-                    <circle cx="50" cy="50" r="38" stroke="url(#yy1)" stroke-width="7" fill="none"/>
-                    <!-- S-curve dividing line -->
-                    <path d="M50 12 C50 12, 69 31, 69 50 C69 69, 50 69, 50 50 C50 31, 31 31, 31 50 C31 69, 50 88, 50 88"
-                          stroke="url(#yy1)" stroke-width="7" stroke-linecap="round" fill="none"/>
-                    <!-- Top dot -->
-                    <circle cx="50" cy="31" r="6" fill="url(#yy1)"/>
-                    <!-- Bottom dot -->
-                    <circle cx="50" cy="69" r="6" stroke="url(#yy1)" stroke-width="4" fill="none"/>
+                    <!-- Limaçon: r = a + b·cos(θ) with inner loop (b > a) -->
+                    <path d="M90 50 C90 35, 78 20, 60 15 C42 10, 25 20, 18 35 C11 50, 15 68, 28 80 C41 92, 62 92, 75 80 C88 68, 95 55, 90 50 C85 45, 70 42, 60 45 C50 48, 45 55, 50 60 C55 65, 68 62, 72 55 C76 48, 70 42, 62 45"
+                          stroke="url(#lm1)" stroke-width="7" stroke-linecap="round" fill="none"/>
                 </svg>
             </div>
             <div class="logo-sizes">
                 <div class="logo-size">
                     <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="yy1b" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="lm1b" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="50" cy="50" r="38" stroke="url(#yy1b)" stroke-width="9" fill="none"/>
-                        <path d="M50 12 C50 12, 69 31, 69 50 C69 69, 50 69, 50 50 C50 31, 31 31, 31 50 C31 69, 50 88, 50 88"
-                              stroke="url(#yy1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
-                        <circle cx="50" cy="31" r="7" fill="url(#yy1b)"/>
-                        <circle cx="50" cy="69" r="7" stroke="url(#yy1b)" stroke-width="5" fill="none"/>
+                        <path d="M90 50 C90 35, 78 20, 60 15 C42 10, 25 20, 18 35 C11 50, 15 68, 28 80 C41 92, 62 92, 75 80 C88 68, 95 55, 90 50 C85 45, 70 42, 60 45 C50 48, 45 55, 50 60 C55 65, 68 62, 72 55 C76 48, 70 42, 62 45"
+                              stroke="url(#lm1b)" stroke-width="9" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">64px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="32" height="32" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="yy1c" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="lm1c" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="50" cy="50" r="40" stroke="url(#yy1c)" stroke-width="12" fill="none"/>
-                        <path d="M50 10 C50 10, 72 30, 72 50 C72 70, 50 70, 50 50 C50 30, 28 30, 28 50 C28 70, 50 90, 50 90"
-                              stroke="url(#yy1c)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                        <path d="M92 50 C92 32, 78 15, 58 10 C38 5, 20 18, 12 38 C4 58, 12 78, 32 88 C52 98, 78 88, 88 68 C95 52, 85 42, 70 45 C55 48, 50 60, 58 68 C66 76, 82 65, 78 52"
+                              stroke="url(#lm1c)" stroke-width="13" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">32px</span>
                 </div>
                 <div class="logo-size">
                     <svg width="16" height="16" viewBox="0 0 100 100" fill="none">
-                        <defs><linearGradient id="yy1d" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <defs><linearGradient id="lm1d" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#2563EB"/>
                         </linearGradient></defs>
-                        <circle cx="50" cy="50" r="38" stroke="url(#yy1d)" stroke-width="18" fill="none"/>
+                        <path d="M95 50 C95 28, 75 8, 50 8 C25 8, 5 35, 10 60 C15 85, 45 95, 70 85 C95 75, 95 50, 80 45 C65 40, 55 55, 65 65"
+                              stroke="url(#lm1d)" stroke-width="18" stroke-linecap="round" fill="none"/>
                     </svg>
                     <span class="size-label">16px</span>
                 </div>
@@ -851,11 +854,8 @@
             <div class="variant">
                 <div class="variant-box dark">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <circle cx="50" cy="50" r="38" stroke="#fff" stroke-width="7" fill="none"/>
-                        <path d="M50 12 C50 12, 69 31, 69 50 C69 69, 50 69, 50 50 C50 31, 31 31, 31 50 C31 69, 50 88, 50 88"
+                        <path d="M90 50 C90 35, 78 20, 60 15 C42 10, 25 20, 18 35 C11 50, 15 68, 28 80 C41 92, 62 92, 75 80 C88 68, 95 55, 90 50 C85 45, 70 42, 60 45 C50 48, 45 55, 50 60 C55 65, 68 62, 72 55 C76 48, 70 42, 62 45"
                               stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
-                        <circle cx="50" cy="31" r="6" fill="#fff"/>
-                        <circle cx="50" cy="69" r="6" stroke="#fff" stroke-width="4" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">White</span>
@@ -863,11 +863,8 @@
             <div class="variant">
                 <div class="variant-box light">
                     <svg width="60" height="60" viewBox="0 0 100 100" fill="none">
-                        <circle cx="50" cy="50" r="38" stroke="#000" stroke-width="7" fill="none"/>
-                        <path d="M50 12 C50 12, 69 31, 69 50 C69 69, 50 69, 50 50 C50 31, 31 31, 31 50 C31 69, 50 88, 50 88"
+                        <path d="M90 50 C90 35, 78 20, 60 15 C42 10, 25 20, 18 35 C11 50, 15 68, 28 80 C41 92, 62 92, 75 80 C88 68, 95 55, 90 50 C85 45, 70 42, 60 45 C50 48, 45 55, 50 60 C55 65, 68 62, 72 55 C76 48, 70 42, 62 45"
                               stroke="#000" stroke-width="7" stroke-linecap="round" fill="none"/>
-                        <circle cx="50" cy="31" r="6" fill="#000"/>
-                        <circle cx="50" cy="69" r="6" stroke="#000" stroke-width="4" fill="none"/>
                     </svg>
                 </div>
                 <span class="variant-label">Black</span>
@@ -875,12 +872,12 @@
         </div>
 
         <div class="formula">
-            <div class="formula-title">Geometric Principle</div>
+            <div class="formula-title">Mathematical Formula</div>
             <p class="formula-text">
-                The <span class="math">Taijitu</span> is constructed from three circles:
-                one large (r=R) and two small (r=R/2). The S-curve is formed by two semicircles.
-                The dots represent the seed of each opposite within the other. Mathematically precise,
-                philosophically profound. Ancient wisdom through geometric construction.
+                <span class="math">r = a + b·cos(θ)</span> in polar coordinates. When <span class="math">b > a</span>,
+                the curve has an inner loop. When <span class="math">a = b</span>, it becomes a cardioid.
+                The name comes from Latin "limax" (snail). Étienne Pascal discovered it while studying
+                conchoids. Also used to solve the angle trisection problem (trisectrix of Limaçon).
             </p>
         </div>
     </div>
