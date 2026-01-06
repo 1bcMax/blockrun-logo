@@ -47,9 +47,28 @@ def export_svg_to_png(svg_path, output_path, size):
     )
     print(f"  Created: {output_path.name}")
 
+def export_with_background(svg_path, output_path, size, bg_color):
+    """Convert SVG to PNG with solid background color."""
+    # First export to transparent
+    temp_png = output_path.parent / "temp_export.png"
+    cairosvg.svg2png(
+        url=str(svg_path),
+        write_to=str(temp_png),
+        output_width=size,
+        output_height=size
+    )
+
+    # Add background
+    logo = Image.open(temp_png)
+    bg = Image.new('RGB', (size, size), bg_color)
+    bg.paste(logo, (0, 0), logo if logo.mode == 'RGBA' else None)
+    bg.save(output_path)
+    temp_png.unlink()
+    print(f"  Created: {output_path.name}")
+
 def export_all_sizes():
     """Export all logo variants at all sizes."""
-    print("\n=== Exporting PNG files ===\n")
+    print("\n=== Exporting PNG files (transparent) ===\n")
 
     variants = ["primary", "white", "black"]
 
@@ -59,10 +78,45 @@ def export_all_sizes():
             print(f"Warning: {svg_path} not found")
             continue
 
-        print(f"\n{variant.upper()} variant:")
+        print(f"\n{variant.upper()} variant (transparent):")
         for size in SIZES:
             output_path = PNG_DIR / f"logo-{variant}-{size}.png"
             export_svg_to_png(svg_path, output_path, size)
+
+def export_with_backgrounds():
+    """Export logo variants with solid backgrounds."""
+    print("\n=== Exporting PNG files (with backgrounds) ===\n")
+
+    # Black logo on white background
+    svg_path = SVG_DIR / "logo-black.svg"
+    if svg_path.exists():
+        print("\nBLACK on WHITE:")
+        for size in SIZES:
+            output_path = PNG_DIR / f"logo-black-on-white-{size}.png"
+            export_with_background(svg_path, output_path, size, '#FFFFFF')
+
+    # White logo on black background
+    svg_path = SVG_DIR / "logo-white.svg"
+    if svg_path.exists():
+        print("\nWHITE on BLACK:")
+        for size in SIZES:
+            output_path = PNG_DIR / f"logo-white-on-black-{size}.png"
+            export_with_background(svg_path, output_path, size, '#000000')
+
+    # White logo on blue background
+    if svg_path.exists():
+        print("\nWHITE on BLUE:")
+        for size in SIZES:
+            output_path = PNG_DIR / f"logo-white-on-blue-{size}.png"
+            export_with_background(svg_path, output_path, size, '#2563EB')
+
+    # Primary (blue) logo on white background
+    svg_path = SVG_DIR / "logo-primary.svg"
+    if svg_path.exists():
+        print("\nPRIMARY on WHITE:")
+        for size in SIZES:
+            output_path = PNG_DIR / f"logo-primary-on-white-{size}.png"
+            export_with_background(svg_path, output_path, size, '#FFFFFF')
 
 def export_favicons():
     """Export favicon sizes."""
@@ -138,6 +192,7 @@ def main():
     print("=" * 50)
 
     export_all_sizes()
+    export_with_backgrounds()
     export_favicons()
     export_social_media()
 
