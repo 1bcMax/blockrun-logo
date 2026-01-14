@@ -80,7 +80,8 @@ That's it.
 Try it now:
 
 ```
-/plugin install github:BlockRunAI/blockrun-claude-code-wallet
+pip install blockrun-llm
+git clone https://github.com/BlockRunAI/blockrun-claude-code-wallet ~/.claude/skills/blockrun
 ```
 
 Open source. MIT license.

@@ -37,8 +37,8 @@ $1 USDC gets you:
 
 **Install:**
 ```
-/plugin install github:BlockRunAI/blockrun-claude-code-wallet
 pip install blockrun-llm
+git clone https://github.com/BlockRunAI/blockrun-claude-code-wallet ~/.claude/skills/blockrun
 ```
 
 **Python SDK:**

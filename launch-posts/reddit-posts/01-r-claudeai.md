@@ -45,7 +45,8 @@ $1 = ~1,000 GPT-5 calls or ~10,000 DeepSeek calls.
 
 **Install:**
 ```
-/plugin install github:BlockRunAI/blockrun-claude-code-wallet
+pip install blockrun-llm
+git clone https://github.com/BlockRunAI/blockrun-claude-code-wallet ~/.claude/skills/blockrun
 ```
 
 Open source (MIT): https://github.com/BlockRunAI/blockrun-claude-code-wallet

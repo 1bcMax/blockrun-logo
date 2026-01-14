@@ -82,7 +82,7 @@ Create these topics before launch:
 BlockRun gives Claude Code a wallet to access 30+ AI models without API keys.
 
 **Getting Started:**
-1. Install: `/plugin install github:BlockRunAI/blockrun-claude-code-wallet`
+1. Install: `pip install blockrun-llm && git clone https://github.com/BlockRunAI/blockrun-claude-code-wallet ~/.claude/skills/blockrun`
 2. Fund wallet with $1-5 USDC on Base
 3. Start using GPT, Grok, DALL-E from Claude
 

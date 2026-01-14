@@ -30,7 +30,7 @@ BlockRun is a Claude Code plugin that gives Claude a wallet. When it needs somet
 
 **How It Works**
 
-1. Install: `/plugin install github:BlockRunAI/blockrun-claude-code-wallet`
+1. Install: `pip install blockrun-llm && git clone https://github.com/BlockRunAI/blockrun-claude-code-wallet ~/.claude/skills/blockrun`
 2. Fund wallet with $1-5 USDC on Base (takes 2 min)
 3. Tell Claude what you need
 
