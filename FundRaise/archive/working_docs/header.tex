@@ -1,0 +1,21 @@
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{pagecolor}
+
+% Define brand colors
+\definecolor{brandblue}{HTML}{3B82F6}
+\definecolor{darkbg}{HTML}{1E293B}
+
+% Header with logo
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=0.8cm]{/Users/vickyfu/Documents/blockrunGTM/FundRaise/logo-1024.png}}
+\fancyhead[R]{\textcolor{brandblue}{\small blockrun.ai}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% Style section headers
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{brandblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{darkbg}}{\thesubsection}{1em}{}
